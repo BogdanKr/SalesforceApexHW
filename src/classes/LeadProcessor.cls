@@ -9,9 +9,12 @@ public with sharing class LeadProcessor implements Database.Batchable<SObject>{
     }
 
     public void execute(Database.BatchableContext param1, List<Lead> param2) {
+//        List<Lead> leads = new List<Lead>();
         for (Lead lead : param2){
             lead.LeadSource = 'Dreamforce';
+//            leads.add(lead);
         }
+        update param2;
     }
 
     public void finish(Database.BatchableContext param1) {
