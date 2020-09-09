@@ -9,10 +9,10 @@ private with sharing class AccountProcessorTest {
     private static void testCountContacts() {
         Account newAcc = new Account(Name = 'Test');
         insert newAcc;
-        Contact firstContact = new Contact(LastName = 'Test', AccountId = newAcc.Id);
-        Contact secondContact = new Contact(LastName = 'Test2', AccountId = newAcc.Id);
-        insert firstContact;
-        insert secondContact;
+        List<Contact> contacts = new List<Contact>();
+        contacts.add(new Contact(LastName = 'Test', AccountId = newAcc.Id));
+        contacts.add(new Contact(LastName = 'Test2', AccountId = newAcc.Id));
+        insert contacts;
         List<Id> accountIds = new List<Id>(new Map<Id, Account>([SELECT Account.Id FROM Account]).keySet());
 
         Test.startTest();

@@ -16,6 +16,7 @@
         <members>AddTaskToAccount</members>
         <members>AccountProcessor</members>
         <members>AccountProcessorTest</members>
+        <members>LeadProcessor</members>
         <name>ApexClass</name>
     </types>
     <version>49.0</version>
