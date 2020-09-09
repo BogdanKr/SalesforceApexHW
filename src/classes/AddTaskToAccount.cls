@@ -1,7 +1,6 @@
 /**
  * Created by Bogdan on 08.09.2020.
  */
-
 public with sharing class AddTaskToAccount {
 
     @InvocableMethod(Label='Give a Task to Account'
@@ -31,7 +30,6 @@ public with sharing class AddTaskToAccount {
             t.OwnerId = newOwner.Id;
         }
     }
-
 
     public class CreateTaskRequest {
         @InvocableVariable(Label='Account Id' Required=true)
