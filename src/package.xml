@@ -7,8 +7,6 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Test</members>
-        <members>Test2</members>
         <members>EmailManager</members>
         <members>StringArrayTest</members>
         <members>AccountHandler</members>
@@ -17,6 +15,7 @@
         <members>GiveWorkThanksAction</members>
         <members>AddTaskToAccount</members>
         <members>AccountProcessor</members>
+        <members>AccountProcessorTest</members>
         <name>ApexClass</name>
     </types>
     <version>49.0</version>
