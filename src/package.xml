@@ -24,6 +24,7 @@
         <members>DailyLeadProcessorTest</members>
         <members>VerifyDate</members>
         <members>TestVerifyDate</members>
+        <members>TestRestrictContactByName</members>
         <name>ApexClass</name>
     </types>
     <version>49.0</version>
