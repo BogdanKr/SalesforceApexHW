@@ -35,4 +35,6 @@ public with sharing class AddPrimaryContactTest {
         }
         System.assertEquals(50, count);
     }
+//    [SELECT Id FROM Account
+//    WHERE Id IN (SELECT AccountId FROM Contact)
 }

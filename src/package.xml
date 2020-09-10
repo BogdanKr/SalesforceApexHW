@@ -22,6 +22,8 @@
         <members>AddPrimaryContactTest</members>
         <members>DailyLeadProcessor</members>
         <members>DailyLeadProcessorTest</members>
+        <members>VerifyDate</members>
+        <members>TestVerifyDate</members>
         <name>ApexClass</name>
     </types>
     <version>49.0</version>
