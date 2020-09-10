@@ -18,6 +18,8 @@
         <members>AccountProcessorTest</members>
         <members>LeadProcessor</members>
         <members>LeadProcessorTest</members>
+        <members>AddPrimaryContact</members>
+        <members>AddPrimaryContactTest</members>
         <name>ApexClass</name>
     </types>
     <version>49.0</version>
