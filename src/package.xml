@@ -25,6 +25,8 @@
         <members>VerifyDate</members>
         <members>TestVerifyDate</members>
         <members>TestRestrictContactByName</members>
+        <members>TestDataFactory</members>
+        <members>RandomContactFactory</members>
         <name>ApexClass</name>
     </types>
     <version>49.0</version>
